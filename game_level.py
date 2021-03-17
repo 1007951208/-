@@ -8,7 +8,7 @@ import fight
 import item 
 
 #Scene类，代表一个游戏场景/关卡
-class Scene():  
+class Scene():   
     
     def __init__(self,scene_name):  #初始化场景，构建敌人、玩家、宝藏
         self.scene_name = scene_name 

@@ -8,6 +8,7 @@ class Character():
         self.healthy = healthy
         self.attack = attack
         self.describe = describe
+        self.equipment = {"weapon":0,"armor":0}
         if describe.isspace() :
             self.describe = "你遭遇了" + name
 
@@ -29,7 +30,14 @@ class Character():
             print("无事发生")
 
     def see(self,scene):
-        print(scene_item_list)
+        pass
+
+    def get_equipment(self, equipment):
+        """ 安装装备 """
+        self.equipment[equipment.type] = equipment
+
+    
+        
     
     
         
