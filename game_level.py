@@ -1,5 +1,6 @@
 """
 单个游戏关卡的模拟，通过创建场景Scene"""
+
 import random
 import time
 
